@@ -10,8 +10,9 @@ Do formuláře zadá celé nezáporné číslo. Klikne na talčítko "odeslat". 
 
 Další požadavky:
 OOP, PHP.
-Dohoda na webové aplikaci.
-Odevzdání přes gitHub
+Webové aplikaci.
+Testovací spustitelná verze na dockeru
+Odevzdání přes gitHub.
 
 Aplikační model:
 FE - HTML, css
@@ -31,3 +32,11 @@ BE -  řešeno pomocí OOP
                 - for ($j = 1; $j <= $i; $j++)
                         if($i % $j === 0) ----> $points++
                 - if($points === 2) // jedná se o prvočíslo. Prvočísla postupně ukládám do pole $primeNrs, která přes foreach vracím uživateli.
+
+Odevzdání:
+Docker: v DockerHub pod názvem ondrej68/test_primenumbers_1
+spuštění v docker playground (https://labs.play-with-docker.com/)
+po přihlášení zadat: docker run -d -p 8080:80 ondrej68/test_primenumbers_1 .
+a otevřít port 8080
+
+github - repo: github_primenumbers, uživatel ondrej0206
