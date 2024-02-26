@@ -8,7 +8,7 @@ class PrimeNumberCalculator {
         $primeNrs =  [];
         for($i = 1; $i <= $inputNumber; $i++) {      
             $points = 0;
-            // cyklus vyhodnocuje, zda číslo n(i) je dělitelné čísly <1;n(i)> bez zbytku. Za každý podíl bez zbytku přičteme do proměnné $b číslo 1. Jakmile cyklus skončí, jdeme do podmínky if. 
+            // cyklus vyhodnocuje, zda číslo n(i) je dělitelné čísly <1;n(i)> bez zbytku. Za každý podíl bez zbytku přičteme do proměnné $points číslo 1. Jakmile cyklus skončí, jdeme do podmínky if. 
             for($j = 1; $j <= $i; $j++) {
                 if($i % $j === 0) {
                     $points++;

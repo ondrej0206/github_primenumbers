@@ -14,7 +14,7 @@
     <main>
         <p>Napiště do políčka celé kladné číslo:</p>
         <form action="index.php" method ="post">
-            <input type="number" name ="cislo" min = "1" step = "1">
+            <input type="number" name ="cislo" min = "2" step = "1">
             <input type="submit" name="submit" value = "Odeslat">
         </form> <br>
 
